@@ -1,0 +1,224 @@
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+body {
+    font-size: 12px;
+    color: #666;
+    min-width: 1040px;
+    /*height: 3000px;*/
+}
+.container {
+    width:980px;
+    margin:0 atuo;
+}
+.wrapper {
+    position:relative;
+    margin:80px auto 20px;
+}
+.mfw-logo {
+    /*position:relative;*/
+    width:370px;
+    height:90px;
+    margin:0 auto;
+}
+.mfw-logo .logo {
+    width:75px;
+    height:90px;
+    display:block;
+    margin:0 auto;
+    background:url(../picture/logo-new.png) no-repeat;
+}
+.signup-forms {
+    position:relative;
+    margin:0 auto;
+    width: 370px;
+    height:348px;
+}
+/*登录    end*/
+.signup-forms .login-box {
+    position: absolute;
+    z-index: 10;
+    margin:0 auto;
+    display: none;
+}
+.signup-forms .inner {
+    width: 370px;
+    /*height:348px;*/
+    background: #fff;
+    padding-top: 26px;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0,0,0,.4);
+}
+/*.inner form {
+    height:182px;
+}*/
+.signup-forms .form-field {
+    clear: both;
+    width: 320px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.signup-forms .form-field input {
+    width: 306px;
+    height: 28px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #666;
+    line-height: 28px;
+    padding: 6px 0 6px 12px;
+    box-shadow: 0 0 5px #fff;
+}
+.signup-forms .form-link {
+    clear: both;
+    width: 320px;
+    margin: 0 auto;
+    padding: 8px 0 0;
+    text-align: right;
+}
+.signup-forms .form-link a {
+    color: #FFA800;
+}
+.signup-forms .form-link a:hover {
+    text-decoration:underline;
+}
+.signup-forms .submit-btn {
+    width: 320px;
+    margin: 0 auto;
+    padding: 12px 0 0;
+}
+.signup-forms .submit-btn button {
+    width: 320px;
+    height: 42px;
+    border: none;
+    background: #ffa800;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signup-forms .submit-btn button:hover {
+    opacity: 0.95;
+}
+.signup-forms .connect {
+    clear: both;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.signup-forms .connect .hd {
+    padding: 15px 0 20px 24px;
+    font-size: 12px;
+    color: #999;
+    border-top: 1px solid #ebebeb;
+}
+.signup-forms .connect .bd {
+    padding: 0 0 0 25px;
+    width: 348px;
+    height: 84px;
+    overflow: hidden;
+}
+.signup-forms .connect a {
+    width: 58px;
+    height: 84px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    display: inline-block;
+    margin-right: 25px;
+}
+.signup-forms .connect a:hover {
+    opacity: 0.85;
+}
+.signup-forms .connect a i {
+    width: 42px;
+    height: 42px;
+    background: url(../images/c_icon3.gif) no-repeat;
+    display: block;
+    margin: 0 0 4px 10px;
+    cursor: pointer;
+}
+.signup-forms .connect .weibo i {
+    background: url(../images/c_icon3.gif) no-repeat 0 0;
+}
+.signup-forms .connect .qq i {
+    background: url(../images/c_icon3.gif) no-repeat -42px 0;
+}
+.signup-forms .connect .weichat i {
+    background: url(../images/c_icon3.gif) no-repeat -294px 0;
+}
+.bottom-link {
+    width: 140px;
+    margin: 10px auto;
+    border-radius: 15px;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    padding: 4px 0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+.bottom-link a {
+    color:#ffa800;
+}
+.bottom-link a:hover {
+    text-decoration:underline;
+}
+.fullscreen-bg {
+    z-index:-1;
+    background:url(../picture/11.jpg)  no-repeat 50% 50%;
+    background-size: cover;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+}
+/*登录    end*/
+/*注册    start*/
+.signup-forms .signup-box {
+    /*background:#fff;*/
+    display:block;
+}
+.signup-forms .agreement {
+    width: 320px;
+    margin: 0 auto;
+    padding-top: 12px;
+    font-size: 12px;
+    color: #ccc;
+    text-align: right;
+    line-height: 1em;
+}
+.signup-forms .agreement a {
+    color: #999;
+    font-size: 12px;
+    margin-left: 2px;
+}
+.signup-forms .agreement a:hover {
+    color:#333;
+    text-decoration: underline;
+}
+.signup-forms .err-tip {
+    clear: both;
+    background: url(../images/err_ico2.png) 0 -60px no-repeat #fff;
+    padding: 0 0 3px 22px;
+    width: 300px;
+    font-size: 12px;
+    color: #ff3c00;
+    margin-top: 10px;
+    top: 0;
+    position: absolute;
+    text-align: left;
+    display: none;
+}
+.form-field input:focus {
+    border-color:#ff9d00;
+    box-shadow: 0 0 2px #ff9d00;
+    transition:all .5s;
+}
+/*注册    end*/

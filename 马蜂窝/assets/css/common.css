@@ -1,0 +1,476 @@
+body {
+    font-size: 12px;
+    color: #666;
+    min-width: 1040px;
+    /*height: 3000px;*/
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+/*蚂蜂窝头部   start*/
+.mfw-header {
+    position: relative;
+    width: 100%;
+    height: 58px;
+}
+
+.mfw-wrap {
+    width: 1000px;
+    height: 58px;
+    margin: 0 auto;
+}
+
+.mfw-wrap .head-logo {
+    position: relative;
+    float: left;
+    width: 136px;
+    height: 32px;
+    padding: 13px 0;
+}
+
+.head-logo .mfw-logo {
+    width: 136px;
+    height: 33px;
+    display: inline-block;
+    background: url(../images/header-small-sprites.png) no-repeat 0 0;
+}
+
+.head-nav {
+    position: relative;
+    float: left;
+    display: inline;
+    padding: 0 10px 0 25px;
+    line-height: 58px;
+    /*text-align:center;*/
+    font-size: 14px;
+    color: #333;
+}
+
+.head-nav > li {
+    float: left;
+}
+
+.head-nav > li > a {
+    display: inline-block;
+    padding: 0 16px;
+    color: #333;
+    vertical-align: top;
+    overflow: hidden;
+    text-align: center;
+}
+
+.head-nav > li > a:hover {
+    color: #ff9d00;
+}
+
+/*.head-nav li a:hover .icon-xiajiantou{
+    color:#ff9d00;
+}*/
+.head-nav .head-nav-active {
+    background-color: #ff9d00;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.icon-xiajiantou {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    vertical-align: middle;
+    border-top: 4px solid #666;
+    border-left: 4px dashed transparent;
+    border-right: 4px dashed transparent;
+    overflow: hidden;
+}
+
+.head-nav-sales {
+    position: relative;
+    /*border:1px solid #eaeaea;*/
+}
+
+.head-nav-sales .dropdown-menu {
+    position: absolute;
+    top: 58px;
+    left: 0;
+    width: 125px;
+    height: auto;
+    overflow: hidden;
+    z-index: 12;
+
+}
+
+.mfw-header .dropdown-menu ul {
+    background: rgba(255, 255, 255, .95);
+    border: 1px solid #eaeaea;
+    margin-bottom: 10px;
+    display:none;
+}
+
+.dropdown-menu li {
+    float: none;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.dropdown-menu a {
+    padding-left: 15px;
+    display: block;
+    color: #666;
+}
+
+.dropdown-menu li:hover {
+    background: #eeeeee;
+}
+
+.icon-hotxiankuang {
+    color: red;
+}
+
+.icon-new {
+    /*font-size:48px;*/
+    color: green;
+}
+
+/*登录方式*/
+.login-out {
+    float: right;
+    padding: 16px 0;
+    height: 26px;
+    line-height: 26px;
+    color: #c9c9c9;
+    text-align: right;
+    /*background:red;*/
+}
+
+.login-out .weibo-login, .login-out .qq-login, .login-out .weixin-login {
+    display: inline-block;
+    margin-right: 6px;
+    width: 26px;
+    height: 26px;
+    overflow: hidden;
+    vertical-align: -7px;
+}
+
+.login-out .weibo-login {
+    background: url(../images/header-sprites9.png) no-repeat 0 -50px;
+}
+
+.login-out .weibo-login:hover {
+    background: url(../images/header-sprites9.png) no-repeat 0 -80px;;
+}
+
+.login-out .qq-login {
+    background: url(../images/header-sprites9.png) no-repeat -30px -50px;
+}
+
+.login-out .qq-login:hover {
+    background: url(../images/header-sprites9.png) no-repeat -30px -80px;
+}
+
+.login-out .weixin-login {
+    background: url(../images/header-sprites9.png) no-repeat 0 -165px;
+}
+
+.login-out .weixin-login:hover {
+    background: url(../images/header-sprites9.png) no-repeat -30px -165px;
+}
+
+.login-out a {
+    font-size: 14px;
+    color: #ff9d00;
+}
+
+.login-out a:hover {
+    text-decoration: underline;
+}
+
+.login-out .split {
+    display: inline-block;
+    margin: 0 6px;
+    width: 1px;
+    height: 14px;
+    background-color: #c9c9c9;
+    overflow: hidden;
+    vertical-align: -2px;
+}
+
+/*蚂蜂窝头部   end*/
+/*蚂蜂窝底部内容       start*/
+.footer {
+    height:544px;
+    background-color: #3c3c3c;
+    color: #c2c2c2;
+    line-height: 22px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.footer a {
+    color: #c2c2c2;
+}
+.footer .ft-info-col {
+    float: left;
+}
+.ft-content {
+    width:1000px;
+    height:524px;
+    margin:0 auto;
+}
+.ft-info {
+    width:984px;
+    height:284px;
+    padding:30px 8px 40px 8px;
+    border-bottom: 1px solid #575a5b;
+}
+.footer .ft-info-intro {
+    width: 200px;
+    margin-right: 68px;
+}
+.ft-info dt {
+    height: 30px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.ft-info-intro strong {
+    color: #ff9d00;
+    font-weight: normal;
+}
+.highlight {
+    color: #ff9d00!important;
+}
+.ft-info-about {
+    width: 128px;
+    margin-right: 85px;
+}
+.m_1_10 {
+    margin-left:10px;
+}
+.ft-info-about dd a:hover {
+    color:#fff;
+}
+
+.ft-info-service {
+    width: 135px;
+    margin-right: 80px;
+}
+
+.ft-info-service dt {
+    text-align: center;
+}
+.ft-info-service dd {
+    width: 100%;
+    overflow: hidden;
+}
+.ft-info-service ul {
+    margin-right: -35px;
+}
+.ft-info-service li {
+    float: left;
+    width: 85px;
+}
+.ft-info-service li a:hover {
+    color:#fff;
+}
+.ft-info-qrcode {
+    float: right;
+    padding-top: 22px;
+    line-height: 1.4em;
+}
+.ft-info-qrcode dd {
+    width: 100px;
+    display: inline;
+    margin-left: 30px;
+    float: right;
+    text-align: center;
+}
+.ft-info-qrcode span {
+    display: block;
+    height: 90px;
+    margin: 0 0 8px 6px;
+}
+
+.ft-code-tejia {
+    background:url(../picture/qr_tejia4.png) no-repeat 0 0;
+}
+.ft-code-weixin {
+    background:url(../picture/code2.gif) no-repeat 0 0;
+}
+
+.ft-info-social {
+    clear: both;
+    text-align: center;
+    padding-top: 25px;
+    width:984px;
+    height:100px;
+}
+.ft-info-social dt {
+    font-size: 16px;
+}
+.ft-info-social dd a {
+    display: inline-block;
+    margin: 0 6px;
+}
+.ft-social-icon {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: url(../picture/mfw-footer-sprite5.png) no-repeat 0 0;
+    overflow: hidden;
+}
+.ft-social-qqt .ft-social-icon {
+    background: url(../picture/mfw-footer-sprite5.png) no-repeat -30px 0;
+}
+.ft-social-qzone .ft-social-icon {
+    background: url(../picture/mfw-footer-sprite5.png) no-repeat -60px 0;
+}
+
+.ft-links {
+    margin-top: -1px;
+    border-top: 1px solid #575a5b;
+    border-bottom: 1px solid #575a5b;
+    padding: 17px 0 17px 8px;
+}
+.ft-links a {
+    display: inline-block;
+    margin-right: 12px;
+}
+.ft-links a:hover {
+    color:#fff;
+}
+
+.ft-copyright {
+    padding: 12px 0;
+    margin-top: -1px;
+    border-top: 1px solid #575a5b;
+}
+.ft-safety {
+    width:308px;
+    height:35px;
+    float: right;
+    padding: 5px 8px 0 0;
+}
+.ft-safety .s-a {
+    float: left;
+    margin-left: 10px;
+    width: 90px;
+    height: 30px;
+    background: url(../picture/mfw-footer-sprite5.png) no-repeat 0 -70px;
+    overflow: hidden;
+}
+.ft-safety .s-b {
+    float: left;
+    margin-left: 10px;
+    width: 90px;
+    height: 30px;
+    background: url(../picture/mfw-footer-sprite5.png) no-repeat 0 -110px;
+}
+.ft-safety .s-c {
+    float: left;
+    margin-left: 10px;
+    width: 90px;
+    height: 30px;
+    background: url(../picture/mfw-footer-sprite5.png) no-repeat 0 -150px;
+}
+.ft-mfw-logo {
+    float: left;
+    margin: 2px 20px 0 0;
+    width: 136px;
+    height: 39px;
+    background: url(../picture/mfw-footer-sprite5.png) no-repeat 0 -30px;
+    overflow: hidden;
+}
+
+.ft-copyright p a:hover {
+    color:#fff;
+}
+/*蚂蜂窝底部内容       end*/
+
+/*右侧导航栏       start*/
+.mfw-toolbar {
+    position: fixed;
+    right: 50%;
+    bottom: 20px;
+    height: auto;
+    width:43px;
+    margin-right: -558px;
+    /*display: none;*/
+    z-index: 1;
+}
+.toolbar-item-top,.toolbar-item-feedback,.toolbar-item-code {
+    margin-bottom:-1px;
+    background:transparent;
+}
+.mfw-toolbar .toolbar-item-top {
+    display:none;
+}
+.mfw-toolbar .btn {
+    display: block;
+    position: relative;
+    width: 43px;
+    height: 43px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    background-color: #fff;
+}
+.mfw-toolbar i {
+    display:inline-block;
+    background:url(../images/header-sprites9.png) no-repeat 0 0;
+}
+.mfw-toolbar .icon-top {
+    width:21px;
+    height:21px;
+    background:url(../images/header-sprites9.png) no-repeat -60px -164px;
+    margin-top:16px;
+}
+.toolbar-item-top .btn:hover em {
+    display:block;
+}
+.mfw-toolbar .btn em {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    width: 35px;
+    background: #aaa;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+    font-style: normal;
+    z-index: 2;
+    display: none;
+    padding: 5px 4px 0 4px;
+    height: 38px;
+    border: 1px solid #aaa;
+}
+.mfw-toolbar .icon-feedback {
+    width:18px;
+    height:18px;
+    background:url(../images/header-sprites9.png) no-repeat -90px -165px;
+    margin-top:13px;
+}
+.toolbar-item-feedback .btn:hover em {
+    display:block;
+}
+.mfw-toolbar .icon-code {
+    width:19px;
+    height:19px;
+    background:url(../images/header-sprites9.png) no-repeat -120px -165px;
+    margin-top:13px;
+}
+.toolbar-item-code .mfw-code {
+    position: absolute;
+    right: 55px;
+    bottom: 0;
+    border: 1px solid #e5e5e5;
+    display: none;
+    background-color: #fff;
+    padding: 6px;
+    color: #999;
+}
+.toolbar-item-code .btn:hover+.mfw-code {
+    display:block;
+}
+/*右侧导航栏       end*/
